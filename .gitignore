@@ -1,0 +1,16 @@
+# Ignore specific files
+.DS_Store
+.env
+.env.*
+
+# Ignore directories
+node_modules/
+/build/
+/.svelte-kit/
+/package/
+
+# Ignore specific files with wildcard patterns
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+package-lock.json
